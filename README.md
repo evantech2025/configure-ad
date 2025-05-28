@@ -154,7 +154,7 @@ Create a new user inside "_EMPLOYEES".
 #### 13. Login as jane_admin  
 Use `mydomain.com\jane_admin` going forward.
 
-![Step 13 - Login as Jane](images/step13_login_as_jane.png)
+![Step 13 - Login as Jane](https://github.com/user-attachments/assets/4dd7adf3-611a-4622-a999-9e8aa3e78bad)
 
 ---
 
@@ -163,30 +163,30 @@ Use `mydomain.com\jane_admin` going forward.
 #### 14. Join Client-1 to Domain  
 Log into Client-1 as `labuser` and join to `mydomain.com`.
 
-![Step 14 - Join Domain](images/step14_join_domain.png)
+![Step 14 - Join Domain](https://github.com/user-attachments/assets/e49a2b4b-4fb6-4c52-a285-a1229d741d9c)
 
 ---
 
 #### 15. Verify in ADUC  
 Ensure `Client-1` appears in Active Directory.
 
-![Step 15 - Verify in ADUC](images/step15_verify_aduc.png)
+![Step 15 - Verify in ADUC](https://github.com/user-attachments/assets/1bfbdb28-dec5-4a72-bb39-472bed4b0f30)
 
 ---
 
 #### 16. Organize Clients  
 Create an OU named `_CLIENTS` and move `Client-1` into it.
 
-![Step 16 - Organize OU](images/step16_organize_ou.png)
+![Step 16 - Organize OU](https://github.com/user-attachments/assets/9e195672-1a4e-4561-9cd0-0171fdb1dd57)
 
 ---
 
 ### 🔧 Part 2: Additional AD Setup
 
 #### 17. Enable Remote Desktop for Domain Users  
-On `Client-1`, allow Remote Desktop access to "Domain Users".
+On `Client-1`, log in as `mydomain.com\jane_admin` and allow Remote Desktop access to "Domain Users".
 
-![Step 17 - RDP Access](images/step17_rdp_access.png)
+![Step 17 - RDP Access](https://github.com/user-attachments/assets/f5d194b5-6811-40cf-ab49-50538736218c)
 
 ---
 
