@@ -11,7 +11,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop (RDP)
 - Active Directory Domain Services
-- PowerShell
+- PowerShell ISE
 
 <h2>Operating Systems Used </h2>
 
@@ -195,17 +195,20 @@ On `Client-1`, log in as `mydomain.com\jane_admin` and allow Remote Desktop acce
 #### 18. Bulk Create Users with PowerShell  
 - Login to `DC-1` as `jane_admin`  
 - Open `PowerShell ISE` as admin  
-- Paste and run the user creation script  
+- Paste and run the user creation script: [User Script Link](https://github.com/evantech2025/configure-ad/blob/main/createusers.ps1)
 - Observe accounts in `_EMPLOYEES`
 
-![Step 18 - Create Users Script](images/step18_user_script.png)
+![Step 18 - Create Users Script](https://github.com/user-attachments/assets/056c427d-c192-444f-b4fe-b825c4dcfa35)
+![Step 18 - Create Users Script](https://github.com/user-attachments/assets/25116cae-54cb-40df-8355-f9f5596d90fd)
+
 
 ---
 
 #### 19. Test Login with New User  
 Log into `Client-1` with one of the newly created accounts.
 
-![Step 19 - Test User Login](images/step19_test_login.png)
+![Step 19 - Test User Login](https://github.com/user-attachments/assets/e5256cc7-bb4d-4a65-9549-24cf45c3ca45)
+![Step 19 - Test User Login](https://github.com/user-attachments/assets/0c5983a0-18aa-4069-beb5-58342ee8691e)
 
 ---
 
